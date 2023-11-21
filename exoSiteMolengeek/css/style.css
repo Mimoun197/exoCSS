@@ -1,0 +1,144 @@
+.barbouton{
+    width: 100%;
+    height:fit-content;
+    margin: -8px;
+    background-color: #9B009D;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+    font-weight: 200;
+}
+input{
+    border-radius: 7px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    color: white;
+    background-color: #00E173;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#liste{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+form{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.nav:hover{
+    background-color: white;
+}
+.p1{
+    color: white;
+}
+.image1{
+    width: 100px;
+    height: 50px;
+}
+
+.parImage{
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+.toutnavbar{
+    border-bottom:1px solid black;
+    height: 70px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #363636;
+    padding-top: 50px;
+}
+
+.logos{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #363636;
+}
+.image2{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.parImage2{
+    width: 35%;
+    display: flex;
+    justify-content: flex-start;
+}
+.form{
+    width:65%;
+    display: flex;
+    justify-content: flex-start;
+}
+svg{
+    border: 3px white solid;
+    border-radius: 50%;
+    padding: 12px;
+    width: 15px;
+}
+.facebook, .instagram, .twitter{
+    color: white;
+}
+.divfacebook, .divinstagram, .divtwitter{
+    display: flex;
+    align-content: center;
+}
+
