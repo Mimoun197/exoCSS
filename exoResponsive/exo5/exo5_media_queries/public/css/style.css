@@ -1,0 +1,17 @@
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: green;
+}
+.div3{
+    background-color: orange;
+}
+@media (min-width:1024px){
+    .div{
+        width: 33.33vw;
+        height: 33.33vw;
+        display: flex;
+        flex-grow: 1;
+    }
+}
