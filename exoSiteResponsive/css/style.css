@@ -1,0 +1,202 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100vw;
+    height: 65px;
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#start{
+    color: white;
+    font-weight: bold;
+}
+#titre3{
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size:small ;
+}
+.rouge1{
+    width: 100vw;
+    height: 450px;
+    background-color: #DC3545;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logohomme{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    gap: 15px;
+    font-size: larger;
+    text-align:justify;
+}
+/* #para{
+    color: white;
+    position: relative; left: -60px;
+    font-size:larger;
+    margin-top: -25px;
+} */
+#logopara{
+    display: flex;
+    flex-direction: column;
+}
+#h11{
+    font-size: 39px;
+}
+#p1{
+    margin-right: -150px;
+    position: relative; left: -65px;
+}
+#blanc1{
+    width: 100vw;
+    /* height: 500px; */
+    background-color: white;
+    padding-top: 1px;
+}
+#titreportfolio{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+#logo{
+    display: flex;
+    width: 200px;
+    height: 150px;
+}
+#lignelogo1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#lignelogo2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+img{
+    border-radius: 5%;
+}
+#rouge2{
+    width: 100vw;
+    /* height: 300px; */
+    background-color:#DC3545 ;
+    padding-top: 1px;
+    margin-bottom: 50px;
+}
+#titreabout{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#pgroupe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 135px;
+    color: white;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+#p22{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+#p21{
+    margin-top: -26px;
+}
+#blanc2{
+    width: 100vw;
+    height: 700px;
+    background-color: white;
+    padding: 1px;
+    
+}
+#titrecontact{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+#formulaire{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+button{
+    background-color: #DC3545;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 6%;
+    color: white;
+    background-size: 50px;
+}
+input{
+    border: none;
+    border-bottom:1px gray solid;
+    padding-bottom: 15px;
+    width: 500px;
+    flex-wrap: wrap;
+}
+footer1{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    width: 100vw;
+    /* height: 260px; */
+    background-color:#2C3E50 ;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#logoreseaux{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+#img{
+    border: white solid ;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+footer2{
+    width: 100vw;
+    height: 50px;
+    background-color: #1A252F;
+    display: flex;
+    justify-content: center;
+}
+#dernierfooter{
+    display: flex;
+    color: white;
+    justify-content:center;
+    align-items: center;
+}
+@media (max-width:500px){
+    input{
+        border-bottom:1px gray solid;
+        width: auto;
+    }
+}
